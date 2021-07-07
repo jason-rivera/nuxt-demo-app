@@ -5,7 +5,7 @@
       <p class="snipper">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
       <button class="button btn">Start Looking</button>
     </div>
-    <img src="../assets/svg/fire-extinguisher.svg" alt="fire extinguisher logo" class="image">
+    <img src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher logo" class="image">
   </div>
 </template>
 
