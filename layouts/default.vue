@@ -1,12 +1,16 @@
 <template>
   <div>
-    My Items page
+    <Nav />
+    <Nuxt />
   </div>
 </template>
 
 <script>
+import Nav from "../components/Nav"
   export default {
-    layout: 'no-nav'
+    components: {
+      Nav
+    }
   }
 </script>
 

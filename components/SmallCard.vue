@@ -1,7 +1,7 @@
 <template>
-  <div class="card-container">
+  <NuxtLink :to="`/products/${card.id}`" class="card-container">
     <img :src="require(`@/assets/images/${card.image || 'fe1.jpg'}`)" alt="fire extinguisher" class="image" />
-  </div>
+  </NuxtLink>
 </template>
 
 <script>
